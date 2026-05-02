@@ -279,7 +279,7 @@ func (s *Server) handleMessageGetFile(from string, msg MessageGetFile) error {
 
 	time.Sleep(50 * time.Millisecond)
 
-	fmt.Printf("written [%v] bytes over the network", n)
+	fmt.Printf("written [%v] bytes over the network\n", n)
 
 	//peer.CloseStream()
 	return nil
